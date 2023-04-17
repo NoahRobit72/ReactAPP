@@ -1,0 +1,27 @@
+.user-input {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: none;
+  }
+  
+  .user-input input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.2);
+    outline: none;
+    width: 5in;
+    margin-bottom: 2in;
+    margin-top: .5in;
+
+  }
+  
+  
+  
+  
+  
+  
+  
