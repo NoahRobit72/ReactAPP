@@ -1,30 +1,12 @@
-
-import Footer from './components/Footer';
-import LogoCaption from './components/LogoCaption';
-import UserInput from './components/UserInput';
-import Header from './components/Header';
-import Slogan from './components/Slogan';
-import React, { useState } from 'react';
-
-
-
+import HomePage from './pages/HomePage';
 import './css/App.css';
 
-function App() {
-  const [inputText, setInputText] = useState('');
 
-  const handleUserInput = (text) => {
-    setInputText(text);
-  };
+function App() {
 
   return (
     <div className="App">
-      <Header />
-      <Slogan />
-      <UserInput onEnter={handleUserInput} />
-      <p>You entered: {inputText}</p>
-      <LogoCaption />
-      <Footer />
+      <HomePage/>
     </div>
   );
 }
