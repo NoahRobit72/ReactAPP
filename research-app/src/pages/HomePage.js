@@ -4,6 +4,7 @@ import Slogan from '../components/Slogan';
 import UserInput from '../components/UserInput';
 import LogoCaption from '../components/LogoCaption';
 import Footer from '../components/Footer';
+import '../css/HomePage.css'
 
 function HomePage(props) {
   const { handleUserInput } = props;

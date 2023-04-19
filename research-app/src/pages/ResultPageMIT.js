@@ -1,4 +1,5 @@
 import React from 'react';
+import '../css/ResultPage.css'
 
 function ResultPageMIT() {
   return (
