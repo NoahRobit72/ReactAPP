@@ -3,7 +3,7 @@ import '../css/ResultPage.css'
 
 function ResultPageMIT() {
   return (
-    <div>
+    <div className='ResultsPage'>
       <h1>This is the page for MIT</h1>
     </div>
   );

@@ -4,7 +4,7 @@ import '../css/Header.css';
 function Header() {
   return (
     <header>
-      <h1>RatingReviews.com</h1>
+      <h1>RatingReviews.coooooom</h1>
     </header>
   );
 }
